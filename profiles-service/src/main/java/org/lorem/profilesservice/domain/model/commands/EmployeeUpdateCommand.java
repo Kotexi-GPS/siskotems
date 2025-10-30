@@ -1,0 +1,38 @@
+package org.lorem.profilesservice.domain.model.commands;
+
+public record EmployeeUpdateCommand(
+    Long employeeId,
+    Long departmentId,
+    String documentType,
+    String documentNumber,
+    String lastName,
+    String firstName,
+    java.util.Date birthDate,
+    String gender,
+    String maritalStatus,
+    String address,
+    String district,
+    String province,
+    String departmentName,
+    String email,
+    String phone,
+    java.util.Date hireDate,
+    java.util.Date terminationDate,
+    String contractType,
+    String workday,
+    String position,
+    String area,
+    String costCenter,
+    java.math.BigDecimal basicSalary,
+    Boolean familyAllowanceFlag,
+    String pensionRegime,
+    String afp,
+    String commissionType,
+    String cuspp,
+    Boolean epsFlag,
+    Boolean sctrFlag,
+    Boolean lifeInsuranceFlag,
+    String bank,
+    String cci
+) {}
+

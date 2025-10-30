@@ -1,0 +1,36 @@
+package org.lorem.profilesservice.interfaces.rest.resources;
+
+public record UpdateEmployeeResource(
+    Long departmentId,
+    String documentType,
+    String documentNumber,
+    String lastName,
+    String firstName,
+    String birthDate,
+    String gender,
+    String maritalStatus,
+    String email,
+    String phone,
+    String address,
+    String district,
+    String province,
+    String hireDate,
+    String terminationDate,
+    String contractType,
+    String workday,
+    String position,
+    String area,
+    String costCenter,
+    Double basicSalary,
+    Boolean familyAllowanceFlag,
+    String pensionRegime,
+    String afp,
+    String commissionType,
+    String cuspp,
+    Boolean epsFlag,
+    Boolean sctrFlag,
+    Boolean lifeInsuranceFlag,
+    String bank,
+    String cci
+) {}
+
